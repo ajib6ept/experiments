@@ -8,6 +8,7 @@ repos:
         name: pytest
         entry: make test
         language: system
+        stages: [commit]
         types: [python]
 # # reorder Python imports
 # - repo: https://github.com/asottile/reorder_python_imports
